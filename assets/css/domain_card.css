@@ -1,0 +1,555 @@
+/* 
+---------------------------------------------
+Domain Starts
+--------------------------------------------- 
+*/
+
+.domain{
+  padding: 0;
+  margin: 0;
+  background: #1e103f;
+color: #1e103f;
+  
+}
+
+.section__title_d{
+    /* margin-bottom: 2rem; */
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    color: #FFFFFF;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+  }
+
+
+.domain_heading{
+  position: relative;
+  display: flex;
+  
+}  
+.domain_ele2{
+  left: 0;
+  opacity: 0.5;
+  position: relative;
+  width: 30%;
+  height: 10%;
+  margin-left:-5rem ;
+  margin-top:-5rem ;
+  animation: rotate_ele2 6s linear infinite;
+}
+
+
+
+@keyframes rotate_ele2 {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+
+  .center-heading .subhead-title{
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  .domain__wrapper {
+    height: 106px;
+    display: grid;
+    gap: 0rem;
+    position: relative;
+    top: -5rem;
+    z-index: 3;
+        
+  }
+  
+  .domain__content {
+    display: grid;
+    gap: 2rem;
+    height: max-content;
+  }
+  
+  .domain__stats {
+    display: grid;
+    place-items: center;
+    gap: 3rem;
+    height: 15rem;
+    height: max-content;
+  }
+  
+  .domain__card {
+    padding: 0 0;
+    display: grid;
+    gap: 0.5rem;
+    place-items: center;
+    /* border-radius: 15px; */
+    width: 100%;
+    height: 100%;
+    cursor:pointer
+  }
+
+  .domain__card:hover{
+    transition: all 0.5s ;
+    box-shadow: 0px 0px 15px 5px rgba(248, 246, 246, 0.4);
+    
+  }
+
+  .domain_img{
+    height: 75%;
+    width: 60%;
+  }
+
+  .domain__card h4,
+  .domain__card p {
+    margin: 0;
+  }
+  
+  .web{
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+  }
+  .app{
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+  }
+  .blockchain{
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+  }
+  .aiml{
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+  } 
+
+.domain_elements{
+  position: relative;
+  
+  overflow: hidden;
+}
+.elements_wrapper{
+  /* flex-direction: row-reverse; */
+  position: relative;
+  display: flex;
+  
+  
+  justify-content: end;
+}
+.domain_ele1-box{
+  position: relative;
+  overflow: hidden;
+  width: 20%;
+  margin-right: 3rem;
+  margin-top: 3rem;
+}
+.domain_ele1 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  animation: rotate_ele1 8s linear infinite;
+  z-index: 1
+}
+.domain_ele3{
+  position: absolute;
+  height: 80%;
+  width: 70%;
+  left: 50%;
+  /* width: -webkit-fill-available; */
+  
+}
+
+@keyframes rotate_ele1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Price styling of Domains */
+  .prize-des-web{
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 1.75rem !important;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+  }
+  .prize-des-app{
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 1.75rem !important;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+  }
+  .prize-des-block{
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 1.75rem !important;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+  }
+  .prize-des-aiml{
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 1.75rem !important;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+  }
+
+  .worth-p-web{
+    color: #FFFFFF;
+  }
+  .worth-p-app{
+    color: #FFFFFF;
+  }
+  .worth-p-block{
+    color: #FFFFFF;
+  }
+  .worth-p-aiml{
+    color: #FFFFFF;
+  }
+  
+
+  .domain__card--variant-1,
+  .domain__card--variant-2,
+  .domain__card--variant-3,
+  .domain__card--variant-4{
+    /* height: 200px; */
+    /* height: 50px; */
+    background: linear-gradient(149deg, rgb(189, 95, 197) 0%, rgb(76, 38, 170) 100%);
+    box-shadow: 0px 0px 15px 1px rgba(248, 246, 246, 0.4);
+    
+  }
+  /* .domain__card--variant-1 {
+    border: 4px solid #8338EC;
+  }
+  
+  .domain__card--variant-2 {
+    background-color: rgb(230, 57, 70);
+    color: white;
+  }
+  
+  .domain__card--variant-3 {
+    background-color: #86B4FD;
+    color: white;
+  }
+  .domain__card--variant-4 {
+    background-color: #FFBE0B;
+    color: white;
+  } */
+  
+  @media screen and (min-width: 900px)  and (max-width: 1200px){
+    .domain__content {
+      grid-template-columns: 2fr 1fr;
+      row-gap: 1rem;
+    }
+  
+    .domain__stats {
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 5rem;
+      row-gap: 6rem;
+    }
+    .countdown-bg {
+      position: absolute;
+      left: -63px;
+      top: 50px;
+    }
+    .domain__card{
+      /* row-gap: 1rem; */
+      width: 80%;
+      height: 100%;
+      
+    }
+    .domain_img{
+      width: 50%;
+    }
+    .aiml,
+    .blockchain,
+    .web,
+    .app{
+      font-size: 1.0rem;
+    }
+   
+    .domain_ele1-box {
+      margin: 0;
+    }
+    .domain{
+      height: 54rem;
+      padding-top: 0;
+
+    }
+    .domain__wrapper{
+      height: 35rem;
+    }
+    .domain_elements{
+      top: -7rem;
+    }
+  
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .domain__wrapper {
+      gap: 2rem;
+    }
+    
+    .domain__content {
+      gap: 2rem;
+    }
+    .domain__stats {
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 2rem;
+      }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .countdown-bg {
+      position: absolute;
+      left: -73px;
+      top: 50px;
+      width: 15%;
+    }
+    .domain__stats {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 3rem;
+      }
+      .domain__card{
+        /* row-gap: 1rem; */
+        width: 80%;
+        height: 100%;
+        
+      }
+      .domain_elements{
+      top: -10%;
+
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .domain{
+      height: max-content;
+    }
+    .domain_elements{
+      top: -15rem;
+
+    }
+    .domain__stats {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 3rem;
+        height: max-content;
+      }
+      .domain__wrapper{
+        width: 60%;
+        margin: auto;
+        height: max-content;
+      }
+
+      .domain__card{
+        /* row-gap: 1rem; */
+        width: 60%;
+        /* height: 70%; */
+        height: max-content;
+        
+      }
+      .domain_title h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 2rem;
+      text-align: center;
+      position: relative;
+      top: 50%;
+      color: #FFFFFF;
+      }
+     
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 900px) {
+    .domain__wrapper{
+      width: 60%;
+      margin: auto;
+      height: max-content;
+    }
+    .domain__stats{
+      height: max-content;
+    
+    }
+    .domain{
+      height: min-content;
+    }
+   
+    .domain_ele2{
+      align-items: center;
+      justify-content: center;
+      margin-left:0;
+      margin-top: 0;
+    }
+    #prizes{
+      
+    }
+    
+  }
+
+  @media screen and (min-width:10px)and (max-width: 599px) {
+    .countdown-bg {
+      position: absolute;
+      left: -60px;
+      top: 31px;
+      width: 22%;
+    }
+    .domain__wrapper{
+      width: 60%;
+      margin: 2rem auto;
+    }
+    .domain_heading{
+      
+      width: 100%;
+      margin: auto;
+    }
+    .domain_ele2{
+
+      margin-left: -2rem;
+    }
+    .domain__title{
+      padding-top: 1rem;
+
+      width: 60%;
+      font-size: 2rem;
+    }
+    .domain_ele2{
+      width: 40%;
+    }
+    .web,
+    .app,
+    .blockchain,
+    .aiml{
+      font-size: 1.3rem;
+    }
+   
+
+  }
+  @media screen and (min-width:10px)and (max-width: 599px)
+  {
+    .web,
+    .app,
+    .blockchain,
+    .aiml{
+      font-size: 0.7rem;
+    }
+
+    .domain_heading{
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      
+    }
+  }
+  
+
+  /* 
+---------------------------------------------
+FAQ Starts
+--------------------------------------------- 
+*/
+.section__title_f {
+  font-family: "Bungee Shade", cursive;
+  font-size: 3rem;
+  color: #414141;
+  text-align: left;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+.flex-center {
+	align-items: center;
+}
+
+#accordion .accordion-card {
+	background: transparent;
+	border: 0;
+	margin-bottom: 30px;
+}
+#accordion .accordion-card__header {
+	background: #3f51b5;
+	color: #fff;
+	padding: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#accordion .accordion-card__header.collapsed .drop-icon {
+	transform: rotate(0deg);
+}
+#accordion .accordion-card__header h5 {
+	display: flex;
+	align-items: center;
+}
+#accordion .accordion-card__header h5 span {
+	margin-left: 10px;
+}
+#accordion .accordion-card__header .drop-icon {
+	margin-right: 15px;
+	transform: rotate(180deg);
+	transition: all 0.2s;
+}
+#accordion .accordion-card__body {
+	padding: 25px;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 786px) {
+  #faqs .row{
+    display: flex;
+    flex-direction: column;
+  }
+  #faqs .row .col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #accordion .accordion-card__header h5 span {
+    margin: 0px 12px;
+  }
+  .section__title_f {
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+}
+.absbox{
+  display: flex;
+  flex-direction: column;
+  
+}
+.absbox p{
+  margin: 1rem;
+}
+.absbox p li{
+  margin: 3rem  !important;
+}
