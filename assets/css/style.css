@@ -1848,6 +1848,7 @@ about
   display: grid;
   place-items: center;
   gap: 3rem;
+  padding: 0 2rem;
 }
 
 .about__card {

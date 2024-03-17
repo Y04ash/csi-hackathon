@@ -9,6 +9,7 @@ Domain Starts
   margin: 0;
   background: #1e103f;
 color: #1e103f;
+width: 100vw;
   
 }
 
@@ -63,6 +64,8 @@ color: #1e103f;
     position: relative;
     top: -5rem;
     z-index: 3;
+    padding-left: 3rem;
+    padding-right: 3rem;
         
   }
   
