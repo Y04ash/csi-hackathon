@@ -276,7 +276,12 @@ justify-content: center;
     background-color: #FFBE0B;
     color: white;
   } */
-  
+  @media screen and (min-width:1201px){
+    /* .domain__card{
+      width: 17rem;
+      height: 21rem;
+    } */
+  }
   @media screen and (min-width: 900px)  and (max-width: 1200px){
     .domain__content {
       grid-template-columns: 2fr 1fr;
@@ -301,7 +306,7 @@ justify-content: center;
     .blockchain,
     .web,
     .app{
-      font-size: 1.0rem;
+      font-size: 1.9rem;
     }
    
     .domain_ele1-box {
@@ -318,6 +323,7 @@ justify-content: center;
     .domain_ele1{
       bottom: -5rem;
     }
+    
   }
   
   @media screen and (min-width: 1200px) {
@@ -378,8 +384,8 @@ justify-content: center;
       .domain__card{
         /* row-gap: 1rem; */
         width: 85%;
-        /* height: 70%; */
-        height: max-content;
+        
+        height: 25rem;
         
       }
       
@@ -391,7 +397,10 @@ justify-content: center;
       top: 50%;
       color: #FFFFFF;
       }
-     
+      .domain_img{
+        padding: 15px 0;
+        width: 69%;
+      }
   }
 
   @media screen and (min-width: 600px) and (max-width: 900px) {
@@ -414,9 +423,7 @@ justify-content: center;
       margin-left:0;
       margin-top: 0;
     }
-    #prizes{
-      
-    }
+   
     .domain_ele2{
       left: -8rem;
       height: 27rem;
@@ -427,6 +434,9 @@ justify-content: center;
       width: 20rem;
       bottom: -9rem;
       right: -1rem;
+    }
+    .web{
+      font-size: 2.5rem;
     }
     
   }
@@ -475,7 +485,7 @@ justify-content: center;
     .app,
     .blockchain,
     .aiml{
-      font-size: 0.7rem;
+      font-size: 1.9rem;
     }
 
     .domain_heading{
@@ -486,6 +496,15 @@ justify-content: center;
     }
     .domain__stats{
       margin-top: -3rem;
+    }
+    .domain__card{
+      height: 20rem;
+      width: 90%;
+    }
+    .domain_img{
+      padding: 15px 0;
+      width: 69%;
+      height: 78%
     }
   }
   
