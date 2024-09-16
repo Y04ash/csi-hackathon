@@ -4,37 +4,33 @@ Domain Starts
 --------------------------------------------- 
 */
 
-
-.domain{
+.domain {
   padding: 0;
   margin: 0;
   background: #1e103f;
-color: #1e103f;
-width: 100vw;
-display: flex;
-justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  
+  color: #1e103f;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.section__title_d{
-    /* margin-bottom: 2rem; */
-    font-size: 5rem;
-    letter-spacing: 2rem;
-    color: #FFFFFF;
-    text-align: center;
-  
-    width: 100%;
-  }
+.section__title_d {
+  /* margin-bottom: 2rem; */
+  font-size: 5rem;
+  letter-spacing: 2rem;
+  color: #ffffff;
+  text-align: center;
 
+  width: 100%;
+}
 
-.domain_heading{
+.domain_heading {
   position: relative;
   display: flex;
-  
-}  
-.domain_ele2{
+}
+.domain_ele2 {
   left: 0;
   opacity: 0.5;
   position: absolute;
@@ -42,8 +38,6 @@ justify-content: center;
   height: 16rem;
   animation: rotate_ele2 6s linear infinite;
 }
-
-
 
 @keyframes rotate_ele2 {
   from {
@@ -54,114 +48,111 @@ justify-content: center;
   }
 }
 
+.center-heading .subhead-title {
+  font-size: 20px;
+  color: #777;
+  margin-bottom: 30px;
+}
+.domain__wrapper {
+  /* height: 106px; */
+  gap: 0rem;
+  position: relative;
+  z-index: 3;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+  width: 100%;
+  margin-top: -7rem;
+}
 
-  .center-heading .subhead-title{
-    font-size: 20px;
-    color: #777;
-    margin-bottom: 30px;
-  }
-  .domain__wrapper {
-    /* height: 106px; */
-    gap: 0rem;
-    position: relative;
-    z-index: 3;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-bottom: 3rem;
-    width: 100%;
-    margin-top: -7rem;
-  }
-  
-  .domain__content {
-    display: grid;
-    gap: 2rem;
-    height: max-content;
-  }
-  
-  .domain__stats {
-    z-index: 1;
-    padding-top: 10rem;
-    display: flex;
-    gap: 3rem;
-    height: 15rem;
-    height: max-content;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-  }
-  
-  .domain__card {
-    padding: 0 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    place-items: center;
-    /* border-radius: 15px; */
-    width: 15rem;
-    height: 17rem;
-    cursor:pointer;
-    z-index: 1;
-  }
+.domain__content {
+  display: grid;
+  gap: 2rem;
+  height: max-content;
+}
 
-  .domain__card:hover{
-    transition: all 0.5s ;
-    box-shadow: 0px 0px 15px 5px rgba(248, 246, 246, 0.4);
-    
-  }
+.domain__stats {
+  z-index: 1;
+  padding-top: 6rem;
+  display: flex;
+  gap: 3rem;
+  height: 15rem;
+  height: max-content;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
 
-  .domain_img{
-    height: 75%;
-    width: 60%;
-  }
+.domain__card {
+  padding: 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  place-items: center;
+  /* border-radius: 15px; */
+  width: 15rem;
+  height: 17rem;
+  cursor: pointer;
+  z-index: 1;
+}
 
-  .domain__card h4,
-  .domain__card p {
-    margin: 0;
-  }
-  
-  .web{
-    text-align: center;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    font-size: 1.6rem;
-    color: #FFFFFF;
-  }
-  .app{
-    text-align: center;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    font-size: 1.8rem;
-    color: #FFFFFF;
-  }
-  .blockchain{
-    text-align: center;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    font-size: 1.8rem;
-    color: #FFFFFF;
-  }
-  .aiml{
-    text-align: center;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    font-size: 1.8rem;
-    color: #FFFFFF;
-  } 
+.domain__card:hover {
+  transition: all 0.5s;
+  box-shadow: 0px 0px 15px 5px rgba(248, 246, 246, 0.4);
+}
 
-.domain_elements{
+.domain_img {
+  height: 75%;
+  width: 60%;
+}
+
+.domain__card h4,
+.domain__card p {
+  margin: 0;
+}
+
+.web {
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+.app {
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+.blockchain {
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+.aiml {
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+.domain_elements {
   position: relative;
   height: 15rem;
   overflow: hidden;
 }
-.elements_wrapper{
+.elements_wrapper {
   /* flex-direction: row-reverse; */
   position: relative;
   display: flex;
-  
-  
+
   justify-content: end;
 }
-.domain_ele1-box{
+.domain_ele1-box {
   position: relative;
   overflow: hidden;
   width: 20%;
@@ -175,16 +166,14 @@ justify-content: center;
   width: 15rem;
   animation: rotate_ele1 8s linear infinite;
   z-index: -1;
-  right:2rem;
-  
+  right: 2rem;
 }
-.domain_ele3{
+.domain_ele3 {
   position: absolute;
   height: 80%;
   width: 70%;
   left: 50%;
   /* width: -webkit-fill-available; */
-  
 }
 
 @keyframes rotate_ele1 {
@@ -196,70 +185,71 @@ justify-content: center;
   }
 }
 
-
 /* Price styling of Domains */
-  .prize-des-web{
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
-    font-weight: bold !important;
-    font-size: 1.75rem !important;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-  }
-  .prize-des-app{
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
-    font-weight: bold !important;
-    font-size: 1.75rem !important;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-  }
-  .prize-des-block{
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
-    font-weight: bold !important;
-    font-size: 1.75rem !important;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-  }
-  .prize-des-aiml{
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
-    font-weight: bold !important;
-    font-size: 1.75rem !important;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-  }
+.prize-des-web {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 1.75rem !important;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.prize-des-app {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 1.75rem !important;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.prize-des-block {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 1.75rem !important;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.prize-des-aiml {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 1.75rem !important;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
 
-  .worth-p-web{
-    color: #FFFFFF;
-  }
-  .worth-p-app{
-    color: #FFFFFF;
-  }
-  .worth-p-block{
-    color: #FFFFFF;
-  }
-  .worth-p-aiml{
-    color: #FFFFFF;
-  }
-  
+.worth-p-web {
+  color: #ffffff;
+}
+.worth-p-app {
+  color: #ffffff;
+}
+.worth-p-block {
+  color: #ffffff;
+}
+.worth-p-aiml {
+  color: #ffffff;
+}
 
-  .domain__card--variant-1,
-  .domain__card--variant-2,
-  .domain__card--variant-3,
-  .domain__card--variant-4{
-    /* height: 200px; */
-    /* height: 50px; */
-    background: linear-gradient(149deg, rgb(189, 95, 197) 0%, rgb(76, 38, 170) 100%);
-    box-shadow: 0px 0px 15px 1px rgba(248, 246, 246, 0.4);
-    
-  }
-  /* .domain__card--variant-1 {
+.domain__card--variant-1,
+.domain__card--variant-2,
+.domain__card--variant-3,
+.domain__card--variant-4 {
+  /* height: 200px; */
+  /* height: 50px; */
+  background: linear-gradient(
+    149deg,
+    rgb(189, 95, 197) 0%,
+    rgb(76, 38, 170) 100%
+  );
+  box-shadow: 0px 0px 15px 1px rgba(248, 246, 246, 0.4);
+}
+/* .domain__card--variant-1 {
     border: 4px solid #8338EC;
   }
   
@@ -277,247 +267,241 @@ justify-content: center;
     color: white;
   } */
 
-  @media screen and (min-width: 900px)  and (max-width: 1200px){
-    .domain__content {
-      grid-template-columns: 2fr 1fr;
-      row-gap: 1rem;
-    }
-    .domain__wrapper{
-      padding: 3rem 0;
-    }
-    .domain__stats {
-      row-gap: 3rem;
-    }
-    .countdown-bg {
-      position: absolute;
-      left: -63px;
-      top: 50px;
-    }
-
-    .domain_img{
-      width: 50%;
-    }
-    .aiml,
-    .blockchain,
-    .web,
-    .app{
-      font-size: 1.9rem;
-    }
-   
-    .domain_ele1-box {
-      margin: 0;
-    }
-    .domain{
-      padding-top: 0;
-
-    }
-    
-    .domain_elements{
-      top: -7rem;
-    }
-    .domain_ele1{
-      bottom: -5rem;
-    }
-    
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .domain__content {
+    grid-template-columns: 2fr 1fr;
+    row-gap: 1rem;
   }
-  
-  @media screen and (min-width: 1200px) {
-    .domain__wrapper {
-      gap: 2rem;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-    }
-    .domain_ele1{
-      bottom: -12rem;
-    }
-    .domain__content {
-      gap: 2rem;
-    }
-    .domain__stats {
-        grid-template-columns: repeat(4, 1fr);
-        margin-top: 2rem;
-      }
+  .domain__wrapper {
+    padding: 3rem 0;
   }
-  
-  @media screen and (max-width: 992px) {
-    .countdown-bg {
-      position: absolute;
-      left: -73px;
-      top: 50px;
-      width: 15%;
-    }
-    .domain__stats {
-        grid-template-columns: repeat(2, 1fr);
-        margin-top: 3rem;
-      }
-  
-      .domain_elements{
-      top: -10%;
-
-    }
+  .domain__stats {
+    row-gap: 3rem;
   }
-  
-  @media screen and (max-width: 900px) {
-    .domain{
-      height: max-content;
-    }
-    .domain_elements{
-      top: -15rem;
-
-    }
-    .domain__stats {
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 3rem;
-        height: max-content;
-      }
-      .domain__wrapper{
-        width: 90%;
-        margin: auto;
-        height: max-content;
-      }
-
-      .domain__card{
-        /* row-gap: 1rem; */
-        width: 85%;
-        
-        height: 25rem;
-        
-      }
-      .domain__card{
-        width: 90%;
-        height: 30rem;
-      }
-  
-      .domain_title h2{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      letter-spacing: 2rem;
-      text-align: center;
-      position: relative;
-      top: 50%;
-      color: #FFFFFF;
-      }
-      .domain_img{
-        padding: 15px 0;
-        width: 55%;
-      }
-      .web,
-    .app,
-    .blockchain,
-    .aiml{
-      font-size: 2.3rem;
-    }
+  .countdown-bg {
+    position: absolute;
+    left: -63px;
+    top: 50px;
   }
 
-  @media screen and (min-width: 600px) and (max-width: 900px) {
-    .domain__wrapper{
-      width: 90%;
-      margin: auto;
-      height: max-content;
-    }
-    .domain__stats{
-      height: max-content;
-    
-    }
-    .domain{
-      height: min-content;
-    }
-    
-    .domain_ele1,
-    .domain_ele2{
-      display: none;
-    }
+  .domain_img {
+    width: 50%;
+  }
+  .aiml,
+  .blockchain,
+  .web,
+  .app {
+    font-size: 1.9rem;
   }
 
-  @media screen and (min-width:10px)and (max-width: 599px) {
-    .countdown-bg {
-      position: absolute;
-      left: -60px;
-      top: 31px;
-      width: 22%;
-    }
-    .domain__wrapper{
-      width: 100%;
-      margin: 2rem auto;
-    }
-    .domain_heading{
-      
-      width: 100%;
-      margin: auto;
-    }
-    .domain_ele2{
-      top: -5rem;
-      height: 20rem;
-      width: 25rem;
-    }
-    .domain__title{
-      height: 100%;
-      padding-top: 1rem;
-      width: 80%;
-      font-size: 3rem;
-      letter-spacing: 1rem;
-    }
-   
-    .web,
-    .app,
-    .blockchain,
-    .aiml{
-      font-size: 1.3rem;
-    }
-   
-
+  .domain_ele1-box {
+    margin: 0;
   }
-  @media screen and (min-width:10px)and (max-width: 599px)
-  {
-    .web,
-    .app,
-    .blockchain,
-    .aiml{
-      font-size: 1.9rem;
-    }
-
-    .domain_heading{
-      flex-direction: column;
-      align-items: center;
-      margin: auto;
-      
-    }
-    .domain__stats{
-      margin-top: -3rem;
-    }
-    .domain__card{
-      height: 22rem;
-      width: 90%;
-    }
-    .domain_img{
-      padding: 15px 0;
-      width: 69%;
-      height: 78%
-    }
-    .domain_ele1,
-    .domain_ele2{
-      display: none;
-    }
-    .web,
-    .app,
-    .blockchain,
-    .aiml{
-      font-size: 2.0rem;
-    }
+  .domain {
+    padding-top: 0;
   }
-  
-  @media screen and (max-width:460px)
-  {
-    .domain__card{
-      width: 100%;
-    }
-    .blockchain_img,
-    .ai_img,
-    .innovation_img{
-      width: 97%;
-    }
 
+  .domain_elements {
+    top: -7rem;
   }
-  /* 
+  .domain_ele1 {
+    bottom: -5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .domain__wrapper {
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .domain_ele1 {
+    bottom: -12rem;
+  }
+  .domain__content {
+    gap: 2rem;
+  }
+  .domain__stats {
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .countdown-bg {
+    position: absolute;
+    left: -73px;
+    top: 50px;
+    width: 15%;
+  }
+  .domain__stats {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3rem;
+  }
+
+  .domain_elements {
+    top: -10%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .domain {
+    height: max-content;
+  }
+  .domain_elements {
+    top: -15rem;
+  }
+  .domain__stats {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 3rem;
+    height: max-content;
+  }
+  .domain__wrapper {
+    width: 90%;
+    margin: auto;
+    height: max-content;
+  }
+
+  .domain__card {
+    /* row-gap: 1rem; */
+    width: 85%;
+
+    height: 25rem;
+  }
+  .domain__card {
+    width: 90%;
+    height: 30rem;
+  }
+
+  .domain_title h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 2rem;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: #ffffff;
+  }
+  .domain_img {
+    padding: 15px 0;
+    width: 55%;
+  }
+  .domain_ele1,
+  .domain_ele2 {
+    display: none;
+  }
+  .web,
+  .app,
+  .blockchain,
+  .aiml {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .domain__wrapper {
+    width: 90%;
+    margin: auto;
+    height: max-content;
+  }
+  .domain__stats {
+    height: max-content;
+  }
+  .domain {
+    height: min-content;
+  }
+
+  .domain_ele1,
+  .domain_ele2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 10px) and (max-width: 599px) {
+  .countdown-bg {
+    position: absolute;
+    left: -60px;
+    top: 31px;
+    width: 22%;
+  }
+  .domain__wrapper {
+    width: 100%;
+    margin: 2rem auto;
+  }
+  .domain_heading {
+    width: 100%;
+    margin: auto;
+  }
+  .domain_ele2 {
+    top: -5rem;
+    height: 20rem;
+    width: 25rem;
+  }
+  .domain__title {
+    height: 100%;
+    padding-top: 1rem;
+    width: 80%;
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+  }
+  .domain_ele1,
+  .domain_ele2 {
+    display: none;
+  }
+  .web,
+  .app,
+  .blockchain,
+  .aiml {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 10px) and (max-width: 599px) {
+  .web,
+  .app,
+  .blockchain,
+  .aiml {
+    font-size: 1.9rem;
+  }
+
+  .domain_heading {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .domain__stats {
+    margin-top: -3rem;
+  }
+  .domain__card {
+    height: 22rem;
+    width: 90%;
+  }
+  .domain_img {
+    padding: 15px 0;
+    width: 69%;
+    height: 78%;
+  }
+  .domain_ele1,
+  .domain_ele2 {
+    display: none;
+  }
+  .web,
+  .app,
+  .blockchain,
+  .aiml {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .domain__card {
+    width: 100%;
+  }
+  .blockchain_img,
+  .ai_img,
+  .innovation_img {
+    width: 97%;
+  }
+}
+/* 
 ---------------------------------------------
 FAQ Starts
 --------------------------------------------- 
@@ -531,48 +515,48 @@ FAQ Starts
   margin-left: 2rem;
 }
 .flex-center {
-	align-items: center;
+  align-items: center;
 }
 
 #accordion .accordion-card {
-	background: transparent;
-	border: 0;
-	margin-bottom: 30px;
+  background: transparent;
+  border: 0;
+  margin-bottom: 30px;
 }
 #accordion .accordion-card__header {
-	background: #3f51b5;
-	color: #fff;
-	padding: 15px;
-	border-radius: 5px;
-	cursor: pointer;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  background: #3f51b5;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #accordion .accordion-card__header.collapsed .drop-icon {
-	transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 #accordion .accordion-card__header h5 {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 #accordion .accordion-card__header h5 span {
-	margin-left: 10px;
+  margin-left: 10px;
 }
 #accordion .accordion-card__header .drop-icon {
-	margin-right: 15px;
-	transform: rotate(180deg);
-	transition: all 0.2s;
+  margin-right: 15px;
+  transform: rotate(180deg);
+  transition: all 0.2s;
 }
 #accordion .accordion-card__body {
-	padding: 25px;
-	background: #fff;
-	border-radius: 5px;
-	box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 786px) {
-  #faqs .row{
+  #faqs .row {
     display: flex;
     flex-direction: column;
   }
@@ -592,14 +576,13 @@ FAQ Starts
     margin-left: 0rem;
   }
 }
-.absbox{
+.absbox {
   display: flex;
   flex-direction: column;
-  
 }
-.absbox p{
+.absbox p {
   margin: 1rem;
 }
-.absbox p li{
-  margin: 3rem  !important;
+.absbox p li {
+  margin: 3rem !important;
 }

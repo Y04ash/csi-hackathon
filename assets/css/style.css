@@ -1759,17 +1759,20 @@ about
   margin: 0;
   max-width: max-content;
 }
-.about{
-  /* margin-top: 6rem; */
-}
+
 #about{
   position: relative;
   /* top: -3rem; */
   height: max-content;
-}
-.about__title {
   
+}
+.about_title{
+  padding-top: 5rem;
+}
+.about__title_d {
+  margin-top: 3rem;
   text-align: center;
+
 }
 
 .about__wrapper {
@@ -1782,16 +1785,19 @@ about
   width: 95%;
   margin: auto;
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }
-
+.inverted_comma{
+  font-size: 1.5rem;
+    color: #ff00d6;
+}
 .about__description {
   position: relative;
-  text-align: justify;
+  text-align:justify;
   width: 50%;
-  display: grid;
-  gap: 1rem;
   color: #fff;
+  padding-left: 2rem;
+  font-size: 1.1rem;
 }
 .about__description p{
   transform: translate(0, -50%);
@@ -1827,9 +1833,9 @@ about
 
 .video_box{
   width: 50%;
+  height:min-content;
 }
 .video{
-  padding-right: 10px;
   width: 100%;
   border: 3px solid #fff;
   border-radius: 3%;
@@ -1863,7 +1869,7 @@ about
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); */
 
-  background: linear-gradient(109.6deg, rgb(9, 9, 121) 11.2%, rgb(144, 6, 161) 53.7%, rgb(0, 212, 255) 100.2%);
+  /* background: linear-gradient(109.6deg, rgb(9, 9, 121) 11.2%, rgb(144, 6, 161) 53.7%, rgb(0, 212, 255) 100.2%); */
 
 }
 
@@ -1881,13 +1887,15 @@ about
 .about__card p {
   font-weight: bold;
   font-size: 1.25rem;
+
 }
 
 .about__card--variant-1 {
   /* border: 4px solid black;
   background-color: rgb(191 53 64);
   color: white; */
-  
+  background-color: #ffb400;
+  border: 6px solid #ffe7cf
   
 
 }
@@ -1897,6 +1905,9 @@ about
   background-color: rgb(177, 64, 73);
 
   color: white; */
+  color: #424242;
+  background-color: #dcdcdc;
+  border: 6px solid #b4b4b4
 
 }
 .about__card--variant-4{
@@ -1910,6 +1921,8 @@ about
 
   background-color: rgb(163, 10, 23);
   color: white; */
+  background-color: #9C27B0;
+    border: 6px solid #e39ce3;
 }
 
 
@@ -1934,7 +1947,7 @@ about
 
 
 
-@media screen and (min-width:0px) and (max-width:589px)
+@media screen and (min-width:0px) and (max-width:590px)
 {
   .section__title_d{
     width: 100vw;
@@ -1947,10 +1960,15 @@ about
   .about__description{
     width: 95%;
     margin: auto;
+    padding-left: 0;
+    font-size: 1.4rem;
   }
   .about__stats{
     width: 80%;
     margin: auto;
+  }
+  .prize_section{
+    background-image: url('../images/prize_vertical_bg.jpg');
   }
 
 }
@@ -1967,6 +1985,8 @@ about
   .about__description{
     width: 95%;
     margin: auto;
+    font-size: 1.5rem;
+    padding-left: 0;
   }
 
   .about__stats{
@@ -1999,6 +2019,22 @@ about
     gap: 4rem;
   }
 }
+
+
+.prize_section{
+  width: 100vw;
+  background-image: url('../images/prize_bg.jpg');
+  
+  padding: 4rem;
+  background-size: cover;
+  background-repeat: no-repeat
+}
+@media screen and (min-width: 590px) {
+  .prize_section {
+    background-image: url('../images/prize_vertical_bg.jpg');
+  }
+}
+
 
 /* 
 ---------------------------------------------
