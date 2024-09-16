@@ -276,12 +276,7 @@ justify-content: center;
     background-color: #FFBE0B;
     color: white;
   } */
-  @media screen and (min-width:1201px){
-    /* .domain__card{
-      width: 17rem;
-      height: 21rem;
-    } */
-  }
+
   @media screen and (min-width: 900px)  and (max-width: 1200px){
     .domain__content {
       grid-template-columns: 2fr 1fr;
@@ -388,7 +383,11 @@ justify-content: center;
         height: 25rem;
         
       }
-      
+      .domain__card{
+        width: 90%;
+        height: 30rem;
+      }
+  
       .domain_title h2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       letter-spacing: 2rem;
@@ -399,8 +398,14 @@ justify-content: center;
       }
       .domain_img{
         padding: 15px 0;
-        width: 69%;
+        width: 55%;
       }
+      .web,
+    .app,
+    .blockchain,
+    .aiml{
+      font-size: 2.3rem;
+    }
   }
 
   @media screen and (min-width: 600px) and (max-width: 900px) {
@@ -416,29 +421,11 @@ justify-content: center;
     .domain{
       height: min-content;
     }
-   
-    .domain_ele2{
-      align-items: center;
-      justify-content: center;
-      margin-left:0;
-      margin-top: 0;
-    }
-   
-    .domain_ele2{
-      left: -8rem;
-      height: 27rem;
-      width: 34rem;
-    }
-    .domain_ele1{
-      height: 20rem;
-      width: 20rem;
-      bottom: -9rem;
-      right: -1rem;
-    }
-    .web{
-      font-size: 2.5rem;
-    }
     
+    .domain_ele1,
+    .domain_ele2{
+      display: none;
+    }
   }
 
   @media screen and (min-width:10px)and (max-width: 599px) {
@@ -498,7 +485,7 @@ justify-content: center;
       margin-top: -3rem;
     }
     .domain__card{
-      height: 20rem;
+      height: 22rem;
       width: 90%;
     }
     .domain_img{
@@ -506,9 +493,24 @@ justify-content: center;
       width: 69%;
       height: 78%
     }
+    .domain_ele1,
+    .domain_ele2{
+      display: none;
+    }
+    .web,
+    .app,
+    .blockchain,
+    .aiml{
+      font-size: 2.0rem;
+    }
   }
   
-
+  @media screen and (max-width:460px)
+  {
+    .domain__card{
+      width: 100%;
+    }
+  }
   /* 
 ---------------------------------------------
 FAQ Starts
