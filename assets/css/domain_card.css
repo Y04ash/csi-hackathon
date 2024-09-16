@@ -510,6 +510,12 @@ justify-content: center;
     .domain__card{
       width: 100%;
     }
+    .blockchain_img,
+    .ai_img,
+    .innovation_img{
+      width: 97%;
+    }
+
   }
   /* 
 ---------------------------------------------
