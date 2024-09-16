@@ -4,12 +4,17 @@ Domain Starts
 --------------------------------------------- 
 */
 
+
 .domain{
   padding: 0;
   margin: 0;
   background: #1e103f;
 color: #1e103f;
 width: 100vw;
+display: flex;
+justify-content: center;
+    align-items: center;
+    flex-direction: column;
   
 }
 
@@ -19,7 +24,7 @@ width: 100vw;
     letter-spacing: 2rem;
     color: #FFFFFF;
     text-align: center;
-    height: 70px;
+  
     width: 100%;
   }
 
@@ -32,11 +37,9 @@ width: 100vw;
 .domain_ele2{
   left: 0;
   opacity: 0.5;
-  position: relative;
-  width: 30%;
-  height: 10%;
-  margin-left:-5rem ;
-  margin-top:-5rem ;
+  position: absolute;
+  width: 20rem;
+  height: 16rem;
   animation: rotate_ele2 6s linear infinite;
 }
 
@@ -58,15 +61,15 @@ width: 100vw;
     margin-bottom: 30px;
   }
   .domain__wrapper {
-    height: 106px;
-    display: grid;
+    /* height: 106px; */
     gap: 0rem;
     position: relative;
-    top: -5rem;
     z-index: 3;
     padding-left: 3rem;
     padding-right: 3rem;
-        
+    padding-bottom: 3rem;
+    width: 100%;
+    margin-top: -7rem;
   }
   
   .domain__content {
@@ -76,22 +79,28 @@ width: 100vw;
   }
   
   .domain__stats {
-    display: grid;
-    place-items: center;
+    z-index: 1;
+    padding-top: 10rem;
+    display: flex;
     gap: 3rem;
     height: 15rem;
     height: max-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
   }
   
   .domain__card {
     padding: 0 0;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 0.5rem;
     place-items: center;
     /* border-radius: 15px; */
-    width: 100%;
-    height: 100%;
-    cursor:pointer
+    width: 15rem;
+    height: 17rem;
+    cursor:pointer;
+    z-index: 1;
   }
 
   .domain__card:hover{
@@ -141,7 +150,7 @@ width: 100vw;
 
 .domain_elements{
   position: relative;
-  
+  height: 15rem;
   overflow: hidden;
 }
 .elements_wrapper{
@@ -160,11 +169,14 @@ width: 100vw;
   margin-top: 3rem;
 }
 .domain_ele1 {
-  position: relative;
-  height: 100%;
-  width: 100%;
+  bottom: -8rem;
+  position: absolute;
+  height: 15rem;
+  width: 15rem;
   animation: rotate_ele1 8s linear infinite;
-  z-index: 1
+  z-index: -1;
+  right:2rem;
+  
 }
 .domain_ele3{
   position: absolute;
@@ -270,23 +282,18 @@ width: 100vw;
       grid-template-columns: 2fr 1fr;
       row-gap: 1rem;
     }
-  
+    .domain__wrapper{
+      padding: 3rem 0;
+    }
     .domain__stats {
-      grid-template-columns: repeat(2, 1fr);
-      margin: 0 5rem;
-      row-gap: 6rem;
+      row-gap: 3rem;
     }
     .countdown-bg {
       position: absolute;
       left: -63px;
       top: 50px;
     }
-    .domain__card{
-      /* row-gap: 1rem; */
-      width: 80%;
-      height: 100%;
-      
-    }
+
     .domain_img{
       width: 50%;
     }
@@ -301,24 +308,27 @@ width: 100vw;
       margin: 0;
     }
     .domain{
-      height: 54rem;
       padding-top: 0;
 
     }
-    .domain__wrapper{
-      height: 35rem;
-    }
+    
     .domain_elements{
       top: -7rem;
     }
-  
+    .domain_ele1{
+      bottom: -5rem;
+    }
   }
   
   @media screen and (min-width: 1200px) {
     .domain__wrapper {
       gap: 2rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
     }
-    
+    .domain_ele1{
+      bottom: -12rem;
+    }
     .domain__content {
       gap: 2rem;
     }
@@ -339,12 +349,7 @@ width: 100vw;
         grid-template-columns: repeat(2, 1fr);
         margin-top: 3rem;
       }
-      .domain__card{
-        /* row-gap: 1rem; */
-        width: 80%;
-        height: 100%;
-        
-      }
+  
       .domain_elements{
       top: -10%;
 
@@ -365,18 +370,19 @@ width: 100vw;
         height: max-content;
       }
       .domain__wrapper{
-        width: 60%;
+        width: 90%;
         margin: auto;
         height: max-content;
       }
 
       .domain__card{
         /* row-gap: 1rem; */
-        width: 60%;
+        width: 85%;
         /* height: 70%; */
         height: max-content;
         
       }
+      
       .domain_title h2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       letter-spacing: 2rem;
@@ -390,7 +396,7 @@ width: 100vw;
 
   @media screen and (min-width: 600px) and (max-width: 900px) {
     .domain__wrapper{
-      width: 60%;
+      width: 90%;
       margin: auto;
       height: max-content;
     }
@@ -411,6 +417,17 @@ width: 100vw;
     #prizes{
       
     }
+    .domain_ele2{
+      left: -8rem;
+      height: 27rem;
+      width: 34rem;
+    }
+    .domain_ele1{
+      height: 20rem;
+      width: 20rem;
+      bottom: -9rem;
+      right: -1rem;
+    }
     
   }
 
@@ -422,7 +439,7 @@ width: 100vw;
       width: 22%;
     }
     .domain__wrapper{
-      width: 60%;
+      width: 100%;
       margin: 2rem auto;
     }
     .domain_heading{
@@ -431,18 +448,18 @@ width: 100vw;
       margin: auto;
     }
     .domain_ele2{
-
-      margin-left: -2rem;
+      top: -5rem;
+      height: 20rem;
+      width: 25rem;
     }
     .domain__title{
+      height: 100%;
       padding-top: 1rem;
-
-      width: 60%;
-      font-size: 2rem;
+      width: 80%;
+      font-size: 3rem;
+      letter-spacing: 1rem;
     }
-    .domain_ele2{
-      width: 40%;
-    }
+   
     .web,
     .app,
     .blockchain,
@@ -466,6 +483,9 @@ width: 100vw;
       align-items: center;
       margin: auto;
       
+    }
+    .domain__stats{
+      margin-top: -3rem;
     }
   }
   

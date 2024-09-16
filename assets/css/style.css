@@ -172,7 +172,7 @@ body {
   position: relative;
   /* padding-top: 100px;
   padding-bottom: 80px; */
-  
+  width: 100vw;
   height: auto;
 }
 
@@ -1728,10 +1728,7 @@ section
 }
 
 
-.domain{
-  background: #1e103f;
-color: #1e103f;
-}
+
 .section__title_a {
 
   margin-bottom: 3rem;
