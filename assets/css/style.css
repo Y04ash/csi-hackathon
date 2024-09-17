@@ -1961,7 +1961,8 @@ about
     width: 95%;
     margin: auto;
     padding-left: 0;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
+    padding-bottom: 2rem;
   }
   .about__stats{
     /* width: 90%; */

@@ -85,7 +85,7 @@
     position: absolute;
     width:6px;
     height: 100%;
-    background: #fff;
+    background: #0dc9fd;
     top: 0;
     left: 50%;
     margin-left: -3px;
@@ -188,9 +188,50 @@
     }
 }
 
-@media screen and (max-width:349px)
+@media screen and (max-width:400px)
 {
     .textbox h3{
-        font-size: 1.2rem;
+        font-size: 1.6rem;
+    }
+}
+@media  screen and (max-width:380px)
+{
+    .textbox{
+        padding: 5px 8px;
+    }
+    .textbox h3{
+        font-size: 1.3rem;
+    }
+    .timeline{
+        margin-top: 25px ;
+    }
+    .dayheading{
+        padding-top: 0;
+    }
+}
+
+@media  screen and (max-width:320px)
+{
+    .textbox{
+        padding: 5px 4px;
+    }
+    .textbox h3{
+        font-size: 1rem;
+    }
+    .timeline_container{
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width:250px)
+{
+    .timeline::after{
+        margin-left: 0;
+    }
+    .timeline{
+       margin-left: 5px; 
+    }
+    .timeline_container{
+        padding-right: 5px;
+        width: 110%;
     }
 }
