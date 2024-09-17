@@ -577,12 +577,18 @@ FAQ Starts
   }
 }
 .absbox {
+  width: 100%;
+  position: relative;
+}
+.inner_absbox{
+  width: 90%;
+  border: 2px dashed rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
+  margin: auto;
+    margin-bottom: 1rem;
 }
-.absbox p {
-  margin: 1rem;
-}
-.absbox p li {
-  margin: 3rem !important;
+
+.inner_absbox li {
+  margin: 1rem !important;
 }

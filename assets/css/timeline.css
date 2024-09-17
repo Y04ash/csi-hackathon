@@ -8,6 +8,7 @@
     position: relative;
     width: 80%;
     margin: 1rem auto;
+    margin-bottom: 0;
 }
 
 .timeline_heading{
@@ -160,7 +161,7 @@
 @media screen and (max-width: 600px)
 {
     .timeline{
-        margin: 50px auto;
+        /* margin: 50px auto; */
     }
     .timeline::after{
         left: 31px;

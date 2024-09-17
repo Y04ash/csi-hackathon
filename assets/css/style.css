@@ -2038,6 +2038,34 @@ about
     flex-direction: column;
   }
 }
+@media screen and (max-width:350px){
+  .prize_section{
+    padding:2.5rem ;
+  }
+
+}
+@media screen and (max-width:260px){
+  .prize_section{
+    padding:2rem ;
+  }
+  .about__card h4{
+    font-size: 1.2rem;
+  }
+  .about__card p{
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width:200px){
+  .prize_section{
+    padding:1.4rem ;
+  }
+  .about__card h4{
+    font-size: 1rem;
+  }
+  .about__card p{
+    font-size: 1.2rem;
+  }
+}
 
 
 /* 
@@ -2284,6 +2312,9 @@ Sponsers Begins
 }
 
 /* Schedule */
+.schedule{
+  background-color: #336a95;
+}
 .schedule__container {
   display: grid;
   gap: 5rem;
@@ -2486,9 +2517,40 @@ Sponsers Begins
   justify-content: center;
   align-items: left;
 }
+.abstract_title{
+  text-align: center;
+  position: relative;
+  width: 100%;
+  font-size: 4rem;
+}
 @media (min-width:0px) and (max-width:500px)
 {
   .buttonBox1{
     margin-top: 1rem;
+  }
+}
+@media screen and (max-width:1040px){
+  .abstract_title{
+    letter-spacing: 1rem;
+  }
+}
+@media screen and (max-width:830px){
+  .abstract_title{
+    letter-spacing: 0.5rem;
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width:450px){
+  .abstract_title{
+    letter-spacing: 0.3rem;
+    font-size: 3rem;
+    line-height: 3.3rem;
+  }
+}
+@media screen and (max-width:300px){
+  .abstract_title{
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+    line-height: 2.3rem
   }
 }
