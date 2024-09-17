@@ -877,30 +877,36 @@ welcome
   /* display: flex; */
   align-items: center;
   /* justify-content: center; */
-  background-image: url(../images/cY.png);
+  /* background-image: url(../images/cY.png); */
   /* background-color: #e5e5e5; */
   /* background-repeat: no-repeat; */
   /* background-position: center center; */
+  background-image: url('../images/landing_bg.jpeg');
   background-size: cover;
-  height: 863px;
+  height: 100vh;
   /* margin-top: 1rem; */
   /* width: 1700px; */
 }
 .welcome-area .header-text {
   position: absolute;
   top: 50%;
-  transform: translateY(-55%);
+  transform: translateY(-43%);
   text-align: center;
   width: 100%;
 }
+.name{
 
+}
 .welcome-area .header-text h1 {
-  font-weight: 500;
-  font-size: 36px;
+  
+  
   line-height: 54px;
-  letter-spacing: 1.4px;
-  margin-bottom: 30px;
-  color: #000;
+  line-height: 6rem;
+  font-weight: 800;
+  text-shadow: 0px 5px 3px rgb(46, 45, 45);
+  color: white;
+  font-size: 6rem;
+  text-align: left;
 }
 
 .welcome-area .header-text p {
@@ -912,7 +918,9 @@ welcome
   margin-bottom: 40px;
   position: relative;
 }
-
+.container{
+  width: 60%;
+}
 @media (max-width: 991px) {
   .welcome-area .header-text {
     top: 65% !important;
@@ -2505,23 +2513,23 @@ Sponsers Begins
   bottom: 0; */
   /* width: 15rem; */
 }
+
 .btndisc:hover{
   color: black;
   background-color: #ccb4b4;
 }
 .buttonBox1{
   padding: 1rem;
-  margin-top: 35rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
+    display: flex;
+    justify-content: start;
+    align-items: left;
 }
 .abstract_title{
   text-align: center;
   position: relative;
   width: 100%;
   font-size: 4rem;
+  padding-top:  1rem;
 }
 @media (min-width:0px) and (max-width:500px)
 {

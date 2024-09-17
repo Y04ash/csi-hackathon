@@ -514,6 +514,9 @@ FAQ Starts
   margin-bottom: 3rem;
   margin-left: 2rem;
 }
+#faq{
+  color: #1e103f;
+}
 .flex-center {
   align-items: center;
 }
@@ -524,7 +527,10 @@ FAQ Starts
   margin-bottom: 30px;
 }
 #accordion .accordion-card__header {
-  background: #3f51b5;
+  /* background: #3f51b5; */
+  background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  width: 90%;
+  margin: auto;
   color: #fff;
   padding: 15px;
   border-radius: 5px;
@@ -579,6 +585,7 @@ FAQ Starts
 .absbox {
   width: 100%;
   position: relative;
+  padding-bottom: 1rem;
 }
 .inner_absbox{
   width: 90%;
@@ -586,9 +593,21 @@ FAQ Starts
   display: flex;
   flex-direction: column;
   margin: auto;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .inner_absbox li {
-  margin: 1rem !important;
+  margin: 0.5rem !important;
+}
+
+@media screen and (max-width:200px){
+  .accordion-card__header{
+    padding: 10px;
+  }
+}
+@media screen and (max-width:190px){
+  .accordion-card__header h5 span {
+    margin: 0px 0px;
+}
 }
