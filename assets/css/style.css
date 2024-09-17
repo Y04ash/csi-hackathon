@@ -1859,7 +1859,7 @@ about
 
   display: grid;
   gap: 0.3rem;
-  
+  text-align: center;
   place-items: center;
   border-radius: 15px;
   color: #fff;
@@ -1879,14 +1879,14 @@ about
 }
 
 .about__card h4 {
-  font-weight: 400;
-  font-size: 1rem;
+  font-weight: 500;
+  font-size: 1.5rem;
 
 }
 
 .about__card p {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.7rem;
 
 }
 
@@ -1964,13 +1964,13 @@ about
     font-size: 1.4rem;
   }
   .about__stats{
-    width: 80%;
-    margin: auto;
+    /* width: 90%; */
+    /* margin: auto; */
+    padding: 0;
+    margin: 0;
+    width: 100%;
   }
-  .prize_section{
-    background-image: url('../images/prize_vertical_bg.jpg');
-  }
-
+  
 }
 
 @media screen and (min-width:590px) and (max-width:899px)
@@ -1996,7 +1996,7 @@ about
   
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 901px) {
   .about__title {
     text-align: left;
   }
@@ -2024,14 +2024,17 @@ about
 .prize_section{
   width: 100vw;
   background-image: url('../images/prize_bg.jpg');
-  
-  padding: 4rem;
+  max-width: none;
+  padding: 4.5rem;
   background-size: cover;
   background-repeat: no-repeat
 }
-@media screen and (min-width: 590px) {
+@media screen and (max-width: 900px) {
   .prize_section {
     background-image: url('../images/prize_vertical_bg.jpg');
+  }
+  .about__stats{
+    flex-direction: column;
   }
 }
 
