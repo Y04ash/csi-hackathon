@@ -417,33 +417,6 @@
   </div>
 </div>
 </section>
-  <!-- ***** Coundown Start ***** -->
-  <section class="section countdown" id="">
-    <h2 class="section__title_d domain__title" id="domains">Count Down begins</h2>
-
-
-    <div class="countdown__wrapper">
-      <div class="countdown__stats">
-        <div class="countdown__card about__card--variant-4">
-          <h4 id="days" class="card-title"></h4>
-          <p class="card-subtitle">Days</p>
-        </div>
-        <div class="countdown__card about__card--variant-3 about__card--blue">
-          <h4 id="hrs" class="card-subtitle"></h4>
-          <p class="card-title">Hours</p>
-        </div>
-        <div class="countdown__card about__card--variant-3 about__card--yellow">
-          <h4 id="mins" class="card-subtitle"></h4>
-          <p class="card-title">Minutes</p>
-        </div>
-        <div class="countdown__card about__card--variant-3 about__card--purple">
-          <h4 id="sec" class="card-subtitle"></h4>
-          <p class="card-title">Seconds</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ***** Countdown End ***** -->
 
   <!-- ***** Timeline Begins ***** -->
 <section class="program_schedule">
@@ -585,6 +558,37 @@
   
 </section>
   <!-- ***** Timeline End ***** -->
+
+  <!-- ***** Coundown Start ***** -->
+  <section class="section countdown" id="">
+    <h2 class="section__title_d domain__title count_title" id="domains">Count Down begins</h2>
+
+
+    <div class="countdown__wrapper">
+      <div class="countdown__stats">
+        <div class="countdown__card about__card--variant-4">
+          <h4 id="days" class="card-title"></h4>
+          <p class="card-subtitle">Days</p>
+        </div>
+        <div class="countdown__card about__card--variant-3 about__card--blue">
+          <h4 id="hrs" class="card-subtitle"></h4>
+          <p class="card-title">Hours</p>
+        </div>
+        <div class="countdown__card about__card--variant-3 about__card--yellow">
+          <h4 id="mins" class="card-subtitle"></h4>
+          <p class="card-title">Minutes</p>
+        </div>
+        <div class="countdown__card about__card--variant-3 about__card--purple">
+          <h4 id="sec" class="card-subtitle"></h4>
+          <p class="card-title">Seconds</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Countdown End ***** -->
+
+
+
   <section class="section schedule abstract" id="abstract">
     <h2 class="section__title_d domain__title abstract_title" id="domains">Abstract Note</h2>
 
@@ -664,7 +668,7 @@
   <section class="section">
     <h2 class="section__title_d domain__title" id="faq">FAQs</h2>
 
-    <div class="row">
+    <div class="row" style="margin-right: 0;">
       <div class="col-sm-6">
         <img src="./assets/images/faq-image.jpg" alt="FAQ" class="img-fluid" />
       </div>
@@ -864,7 +868,7 @@
 
   <!-- Scrpt for Countdown timer -->
   <script>
-    var dest = new Date("april 8, 2023 09:00:00").getTime();
+    var dest = new Date("october 5, 2024 09:00:00").getTime();
 
     var x = setInterval(function () {
       var present = new Date().getTime();

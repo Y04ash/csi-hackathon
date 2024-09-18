@@ -493,7 +493,7 @@ Domain Starts
 
 @media screen and (max-width: 460px) {
   .domain__card {
-    width: 100%;
+    width: 85%;
   }
   .blockchain_img,
   .ai_img,
@@ -512,6 +512,14 @@ Domain Starts
     padding-left:1rem ;
     padding-right:1rem ;
   }
+  .domain__card {
+    width: 85%;
+  }
+}
+@media screen and (max-width:350px){
+  .domain__card{
+    height:19rem ;
+  }
 }
 @media screen and (max-width:290px){
   
@@ -522,7 +530,7 @@ Domain Starts
     font-size: 1rem;
   }
   .domain__card{
-    height: 18rem;
+    height: 17rem;
   }
 }
 @media screen and (max-width:200px){
