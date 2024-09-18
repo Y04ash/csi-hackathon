@@ -1964,7 +1964,8 @@ about
   max-width: none;
   padding: 4.5rem;
   background-size: cover;
-  background-repeat: no-repeat
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 900px) {
   .prize_section {
