@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
   <link rel="stylesheet" href="/assets/css/timeline.css">
+  <link rel="stylesheet" href="/assets/css/navbar.css">
 
   <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
   <!-- <script  src="/assets/js/timeline.js"></script> -->
@@ -50,23 +51,24 @@
 
   <!-- ------------------XXXXXXXXXXX------------------ -->
 
-  <!-- <header class="header-area header-sticky">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <nav class="main-nav"> -->
-  <!-- ***** Logo Start ***** -->
-  <!-- <a href="#welcome" class="logo" >
+  <header class="header-area header-sticky" style="min-height: 60px;">
+      <div class="container" style="width: 80%; height: 100%; position: relative;">
+        <div class="row" style="height: 100%; position: relative;">
+          <div class="col-12" style="height: 100%; position: relative;">
+            <nav class="main-nav " style="display: flex; height: 100%; min-height: auto; position: relative;"> 
+  
+              <a href="#welcome" class="logo" >
                 <img
                   src="./assets/images/code odyssey 2 logo n.png"
                   width="165"
                   height="30"
+                  margin-top="0 !important"
                   alt="Logo"
+                  style="margin-left: 1rem;"
                 /> 
-              </a>-->
-  <!-- ***** Logo End ***** -->
-  <!-- ***** Menu Start ***** -->
-  <!-- <ul class="nav">
+              </a>
+ 
+              <ul class="nav">
                 <li><a href="#welcome" class="active">Home</a></li>
                 <li><a href="#domains">Domains</a></li>
                 <li><a href="#about">About</a></li>
@@ -81,16 +83,44 @@
               </ul>
               <a class="menu-trigger">
                 <span>Menu</span>
-              </a> -->
-  <!-- ***** Menu End ***** -->
-  <!-- </nav>
+              </a>
+
+            </nav>
           </div>
         </div>
       </div>
-    </header> -->
+    </header>
+
+
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary outer_nav" style="width: 100%;
+    position: fixed">
+      <div class="container-fluid inner_nav" style="justify-content: center;
+    width: 60% ;">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" style="justify-content: center;"id="navbarNavAltMarkup">
+          <div class="navbar-nav" >
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            
+          </div>
+        </div>
+      </div>
+    </nav> -->
+
   <!-- ***** Header Area End ***** -->
 
   <!-- ***** Welcome Area Start ***** -->
+
+
   <div class="welcome-area" id="welcome">
 
     <div class="header-text">
@@ -104,16 +134,18 @@
           </h1>
         
         <div class="buttonBox1">
-          <div class="apply-button" data-hackathon-slug="code-odyssey-2" data-button-theme="light"
-            style="height: 44px; width: 15rem">
+         
             <div class="btnbox">
               <a href="https://forms.gle/qoZbBXN4EnsmyZ458" class="btn">
-                SUBMIT ABSTRACT <br> here..
+                SUBMIT ABSTRACT
               </a>
             </div>
-          </div class='register_btn'>
+          
           <!-- <br> -->
-          <a href="https://discord.gg/Au7ERfWY5e" class="btndisc">Register Now</a>
+           <div class="btnbox">
+
+             <a href="https://discord.gg/Au7ERfWY5e" class="btndisc">Register Now</a>
+           </div>
         </div>
       </div>
     </div>
@@ -253,7 +285,7 @@
 
         <div class="domain__card domain__card--variant-1">
           <img width="25%" src="./assets/images/webdev-img.webp" class="domain_img web_img" />
-          <h4 class="web">Web/App Development</h4>
+          <h4 class="web">Web Development</h4>
         </div>
 
         <div class="domain__card domain__card--variant-3">
@@ -271,7 +303,7 @@
         <div class="domain__card domain__card--variant-2">
 
           <img width="25%" src="./assets/images/innovation-img.png" style="color: #2714ff" class="domain_img innovation_img" />
-          <h4 class="app">Open Innovation</h4>
+          <h4 class="app">App Devrlopment</h4>
           <!-- <p class="prize-des-app">Rs. 30,000</p> -->
           <!-- <p class="worth-p-app">worth prizes</p> -->
         </div>
@@ -747,40 +779,39 @@
             <h2 class="section__title_c countdown__title">Contact Us</h2>
           </div>
         </div>
-        <div class="offset-lg-3 col-lg-6">
+        <!-- <div class="offset-lg-3 col-lg-6">
           <div class="center-text">
             <p>
               Reach out to us from here...
             </p>
 
           </div>
-        </div>
+        </div> -->
       </div>
       <!-- ***** Section Title End ***** -->
 
       <div class="row contactbox">
         <!-- ***** Contact Text Start ***** -->
-        <div class="col-lg-4 col-md-6 col-sm-12 ">
-          <!-- <h5 class="margin-bottom-30">Keep in touch</h5> -->
+      
           <div class="contact-text">
-            <p style="font-size: 1.5rem; color: black; font-weight: bold;">
-              Reach out to us today
-              via any of the given
+            <p style="font-size: 1.5rem; color: #a0f3ff;; font-weight: bold; text-align: center;">
+              Reach out to us<br> today
+              via any  of the <br>given
               information
               <br />
             </p>
             <p>
-              Email us at : csi-kjsieit@somaiya.edu
+              Email us at : <br>csi-kjsieit@somaiya.edu
             </p>
             <p>
               Call us : <br>
-              Aryan Solanki - +91 98218 24064 <br>
-              Ojas Narsana  - +91 98191 47148
+              Aryan Solanki <br> +91 98218 24064 <br>
+              Ojas Narsana  <br> +91 98191 47148
             </p>
 
           </div>
 
-        </div>
+      </div>
   </section>
   <!-- ***** Contact Us End ***** -->
 

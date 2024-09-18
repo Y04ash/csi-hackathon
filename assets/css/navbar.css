@@ -1,0 +1,11 @@
+.outer_nav{
+    /* width: 100% !important;
+    position: fixed !important; */
+    
+}
+.inner_nav{
+    /* justify-content: center !important;
+    width: 60% !important; */
+    background-color: white;
+    border-radius: 10px;
+}

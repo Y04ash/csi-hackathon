@@ -9,7 +9,7 @@ Domain Starts
   margin: 0;
   background: #1e103f;
   color: #1e103f;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -166,7 +166,7 @@ Domain Starts
   width: 15rem;
   animation: rotate_ele1 8s linear infinite;
   z-index: -1;
-  right: 2rem;
+  right: 4rem;
 }
 .domain_ele3 {
   position: absolute;
@@ -440,7 +440,7 @@ Domain Starts
     height: 100%;
     padding-top: 1rem;
     width: 80%;
-    font-size: 3rem;
+    font-size: 2.7rem;
     letter-spacing: 0.4rem;
   }
   .domain_ele1,
@@ -499,6 +499,39 @@ Domain Starts
   .ai_img,
   .innovation_img {
     width: 97%;
+  }
+}
+@media screen and (max-width:400px){
+  .web,
+  .app,
+  .blockchain,
+  .aiml {
+    font-size: 1.5rem;
+  }
+  .domain__wrapper{
+    padding-left:1rem ;
+    padding-right:1rem ;
+  }
+}
+@media screen and (max-width:290px){
+  
+  .web,
+  .app,
+  .blockchain,
+  .aiml {
+    font-size: 1rem;
+  }
+  .domain__card{
+    height: 18rem;
+  }
+}
+@media screen and (max-width:200px){
+  
+  .web,
+  .app,
+  .blockchain,
+  .aiml {
+    font-size: 1rem;
   }
 }
 /* 
@@ -610,4 +643,17 @@ FAQ Starts
   .accordion-card__header h5 span {
     margin: 0px 0px;
 }
+}
+@media screen and (min-width:10px)and  (max-width:250px){
+
+  .domain_title,
+  .about__title,
+  .timeline_heading,
+  .abstract_title
+  {
+    font-size: 2rem;
+  }
+  .odyssey{
+    letter-spacing: 0.3rem;
+  }
 }
