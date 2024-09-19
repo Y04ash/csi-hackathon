@@ -130,6 +130,10 @@
 {
     animation-delay: 6s;
 }
+.timeline_container:nth-child(8)
+{
+    animation-delay: 7s;
+}
 
 
 .left-arrow-container{

@@ -643,6 +643,7 @@ header
 }
 
 @media (max-width: 1199px) {
+  
   .header-area {
     padding: 0px 15px;
     height: 80px;
@@ -652,15 +653,13 @@ header
   .header-area .container {
     padding: 0px;
   }
-  .header-area .logo {
-   
-  }
+  
   .header-area .menu-trigger {
     display: block !important;
   }
-  .header-area .main-nav {
+  /* .header-area .main-nav {
     overflow: hidden;
-  }
+  } */
   .header-area .main-nav .nav {
     float: none;
     width: 100%;
@@ -692,6 +691,10 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
+  }
+  .menu-trigger:hover > .row,.col-12,.main-nav{
+    overflow: visible;
+    transition: all 1s ease 1s;
   }
 }
 
